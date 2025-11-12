@@ -1,0 +1,36 @@
+public class GarrafasVerdes{
+	public static void main (String[] args) {
+		int qntdGarrafas = 10;
+		String palavra = "garrafas";
+
+		while(qntdGarrafas >= 0) {
+		if (qntdGarrafas == 1) {
+			System.out.println("Tem 1 garrafa na parede");
+		}		
+	
+		System.out.println("Tem "+qntdGarrafas+" garrafas na parede.");
+		qntdGarrafas--;
+		}
+		
+	}
+}
+
+public class GarrafasVerdes{
+	public static void main (String[] args) {
+		int qntdGarrafas = 0;
+		String palavra = "garrafas";
+
+		while(qntdGarrafas <= 10) {
+			if (qntdGarrafas == 1) {
+			System.out.println("Tem 1 garrafa na parede");
+		}
+
+		System.out.println("Tem "+qntdGarrafas+" garrafas na parede.");
+		qntdGarrafas++;
+		}
+	}
+}
+
+
+A ideia dos dois estão certas, mas não coloquei a letra da musica.
+Na resposta, colocaram a palavra garrafas em uma variável, e fizeram um if para quando fosse singular. 
